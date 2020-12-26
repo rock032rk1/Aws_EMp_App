@@ -27,7 +27,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan("com.employee.app")
 @EnableTransactionManagement
-@PropertySource("classpath:application.properties")
+//@PropertySource("classpath:application.properties")
 public class WebConfig implements WebMvcConfigurer{
 
 	@Bean
