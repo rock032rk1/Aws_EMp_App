@@ -15,14 +15,14 @@ public class Employee {
 	private int eid;
 	private String name;
 	private String email;
-	private double mobile;
+	private String mobile;
 	private String password;
 	
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Employee(int eid, String name, String email, double mobile,String password) {
+	public Employee(int eid, String name, String email, String mobile,String password) {
 		super();
 		this.eid = eid;
 		this.name = name;
@@ -55,11 +55,11 @@ public class Employee {
 		this.email = email;
 	}
 
-	public double getMobile() {
+	public String getMobile() {
 		return mobile;
 	}
 
-	public void setMobile(double mobile) {
+	public void setMobile(String mobile) {
 		this.mobile = mobile;
 	}
 
